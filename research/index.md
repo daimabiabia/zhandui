@@ -93,10 +93,10 @@ option && myChart.setOption(option);
 <div class="card-text">
 <div class="card-title">RoboMaster 2024</div>
 
-十六进八，国赛名额关键争夺战，顽强拼搏，三分钟推爆基地。
+1v1女娲vsim。
 </div>
 <div class="card-image">
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1405028929&bvid=BV1sr421L7yP&cid=1557709783&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" mute="true"></iframe>
+<iframe src="//https://www.bilibili.com/video/BV1jN4y1N7uR?vd_source=d751cca0d26273abd71a803f606f2196" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" mute="true"></iframe>
 </div>
 </div>
 
@@ -126,7 +126,7 @@ option && myChart.setOption(option);
 
 {% assign awards_count =  national_awards_count | plus: international_awards_count | plus: provincial_awards_count | plus: other_awards_count %}
 
-根据不完全统计，狼牙战队已经获得了总计 {{awards_count}} 项奖项。
+根据不完全统计，悠然战队已经获得了总计 {{awards_count}} 项奖项。
 <table>
 <tr>
   <td>国家级奖项</td>
@@ -165,7 +165,7 @@ option && myChart.setOption(option);
 {% include search-box.html %}
 {% include search-info.html %}
 
-根据不完全统计，狼牙战队已经获得了总计 {{site.projects | size}} 项大创项目。
+根据不完全统计，悠然战队已经获得了总计 {{site.projects | size}} 项大创项目。
 
 {% include list.html data="projects" component="projects" style="simple" %}
 
@@ -176,7 +176,7 @@ option && myChart.setOption(option);
 {% include search-box.html %}
 {% include search-info.html %}
 
-根据不完全统计，狼牙战队已经获得了总计 {{site.patents | size}} 项专利。
+根据不完全统计，悠然战队已经获得了总计 {{site.patents | size}} 项专利。
 
 {% include list.html data="patents" component="patents" style="simple" %}
 
